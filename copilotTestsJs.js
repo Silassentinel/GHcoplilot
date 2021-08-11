@@ -61,4 +61,20 @@ const printFibonacci = (number) =>
     }
 }
 
-//sigingtest
+//generate fibonacci sequence
+const generateFibonacci = (number) =>
+{
+    let n = 0;
+    let n1 = 1;
+    let n2;
+    let fibonacci = [];
+
+    while (n2 < number)
+    {
+        n2 = n+n1;
+        n=n1;
+        n1 = n2;
+        fibonacci.push(n2);
+    }
+    return fibonacci;
+}
