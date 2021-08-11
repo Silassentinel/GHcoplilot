@@ -20,3 +20,8 @@ var readFileAsync = function(fileName) {
         });
     });
 }
+
+// take list of names and sort alphabetic
+var sortNames = function(names) {
+    return names.sort();
+}
